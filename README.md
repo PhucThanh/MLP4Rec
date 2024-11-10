@@ -16,6 +16,10 @@ Note that for efficiency concern, we use Automatic Mixed Precision Training (AMP
 
 If you encounter any problem, please contact Muyang Li by muli0371@uni.sydney.edu.au
 
+## Paper replication note:
+
+Additionally, run run_mlp4rec_beauty.py to train and evaluate on the beauty dataset. The beauty dataset can be downloaded from: https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Amazon_ratings/Amazon_Beauty.zip. 
+
 ## Ciation
 
 If you feel our work is insightful, please consider citing us 
