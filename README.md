@@ -20,7 +20,7 @@ For Amazon Beauty
 ![img](Screenshots/ABeauty.png)
 
 For MovieLens
-![img](Screenshots/Movielens.png)
+![img](Screenshots/MovieLens.png)
 
 Loss for Amazon Beauty
 ![img](Screenshots/Loss_ABeauty.png)
