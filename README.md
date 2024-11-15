@@ -1,7 +1,12 @@
 ## Re-MLP4Rec: A Pure MLP Architecture for Sequential Recommendations (IJCAI 2022, Long Oral)
 
-This is a reproduction code for the ML4Rec. Conducted as a part of Data Science Lab 3. 
+This is a reproduction code for the MLP4Rec. Conducted as a part of Data Science Lab 3. 
 Please refer to the logs for test results.
+
+Team Members-
+Abhinandan Roul, Ishara Madhavi, Phuc Tran
+
+
 ## Usage
 - Clone the repository.
 - Create virtual environment:
