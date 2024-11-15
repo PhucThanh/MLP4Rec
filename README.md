@@ -17,16 +17,16 @@ Additionally, re-run_mlp4rec_beauty.py to train and evaluate on the beauty datas
 
 ## Screenshots
 For Amazon Beauty
-![img](Screenshots\ABeauty.png)
+![img](Screenshots/ABeauty.png)
 
 For MovieLens
-![img](Screenshots\Movielens.png)
+![img](Screenshots/Movielens.png)
 
 Loss for Amazon Beauty
-![img](Screenshots\Loss_ABeauty.png)
+![img](Screenshots/Loss_ABeauty.png)
 
 Loss for Movie Lens
-![img](Screenshots\Loss_Movielens.png)
+![img](Screenshots/Loss_Movielens.png)
 
 ## Citation for original papers
 
