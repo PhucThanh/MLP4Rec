@@ -1,26 +1,34 @@
-## MLP4Rec: A Pure MLP Architecture for Sequential Recommendations (IJCAI 2022, Long Oral)
+## Re-MLP4Rec: A Pure MLP Architecture for Sequential Recommendations (IJCAI 2022, Long Oral)
 
-This repo contains a copy of RecBole 1.0.1, with our implementation of MLP4Rec
-
-Current release is our prelimnary version, which suffers from some efficiency issues, we are currently collaborating with RecBole to solve those issues
-
+This is a reproduction code for the ML4Rec. Conducted as a part of Data Science Lab 3. 
+Please refer to the logs for test results.
 ## Usage
-
-Before running MLP4Rec, please make sure you visit https://recbole.io/ and https://github.com/RUCAIBox/RecBole first to make sure that you have fulfilled the pre-requistes and familar with basic RecBole usage.
-
-Then, you can simply running run_mlp4rec.py from root directory, default dataset is ml-100k, experiment configurations is by default sync with ours https://www.ijcai.org/proceedings/2022/297.
-
-Note that for efficiency concern, we use Automatic Mixed Precision Training (AMP) by default
-
-## Report a problem
-
-If you encounter any problem, please contact Muyang Li by muli0371@uni.sydney.edu.au
+- Clone the repository.
+- Create virtual environment:
+- `python -m venv myenv`
+- `source myenv/bin/activate`
+- Install packages: pip install -r requirements.txt
+- Execute `python run_mlp4rec.py`
 
 ## Paper replication note:
 
-Additionally, run run_mlp4rec_beauty.py to train and evaluate on the beauty dataset. The beauty dataset can be downloaded from: https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Amazon_ratings/Amazon_Beauty.zip. 
+Additionally, re-run_mlp4rec_beauty.py to train and evaluate on the beauty dataset. The beauty dataset can be downloaded from: https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Amazon_ratings/Amazon_Beauty.zip. 
 
-## Ciation
+
+## Screenshots
+For Amazon Beauty
+![img](Screenshots\ABeauty.png)
+
+For MovieLens
+![img](Screenshots\Movielens.png)
+
+Loss for Amazon Beauty
+![img](Screenshots\Loss_ABeauty.png)
+
+Loss for Movie Lens
+![img](Screenshots\Loss_Movielens.png)
+
+## Citation for original papers
 
 If you feel our work is insightful, please consider citing us 
 ```
